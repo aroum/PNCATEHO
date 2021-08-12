@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PNCATEHO)(type Legacy)(uri ${KIPRJMOD}/../PNCATEHO_lib/kicad-symbols/PNCATEHO.lib)(options "")(descr ""))
+)

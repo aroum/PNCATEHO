@@ -20,5 +20,7 @@ fp-info-cache
 shape/sources/
 case/sources/
 pcb/PNCATEHO_lib/kicad-packages3D/
-pcb_PNCATEHO_rgb/gerber/
-pcb_PNCATEHO/gerber/
+pcb/pcb_PNCATEHO_rgb/gerber/
+pcb/pcb_PNCATEHO/gerber/
+
+plate/pcb/gerber/
