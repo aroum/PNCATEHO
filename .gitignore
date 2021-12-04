@@ -17,10 +17,16 @@ fp-info-cache
 *.dsn
 *.ses
 
-shape/sources/
-case/sources/
-pcb/PNCATEHO_lib/kicad-packages3D/
-pcb/pcb_PNCATEHO_rgb/gerber/
-pcb/pcb_PNCATEHO/gerber/
+case/case.stl
 
+pcb/shape/sources/
+case/sources/
+plate/cutting/sources/
+
+pcb/PNCATEHO_lib/kicad-packages3D/
+plate/pcb/plate_lib
+
+pcb/PNCATEHO_rgb/gerber/
+pcb/PNCATEHO/gerber/
 plate/pcb/gerber/
+
