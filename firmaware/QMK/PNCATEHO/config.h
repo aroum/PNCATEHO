@@ -4,10 +4,10 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID 0xFE1D
-#define PRODUCT_ID 0x86F8
+#define VENDOR_ID 0x4541
+#define PRODUCT_ID 0x0002
 #define DEVICE_VER 0x0002
-#define MANUFACTURER aroum
+#define MANUFACTURER Aroum
 #define PRODUCT PNCATEHO
 #define DESCRIPTION x - key chorded  keyboard
 
@@ -15,19 +15,8 @@
 #define MATRIX_ROWS 2
 #define MATRIX_COLS 5
 
-/* COL2ROW or ROW2COL */
-#define DIODE_DIRECTION COL2ROW
-
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCING_DELAY 5
-
-/* Locking resynchronize hack */
-#define LOCKING_RESYNC_ENABLE
-
- /* key combination for command */
-/* #define IS_COMMAND() ( \
-    keyboard_report->mods == (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_RSHIFT)))
-*/
 
 /* prevent stuck modifiers */
 #define PREVENT_STUCK_MODIFIERS
