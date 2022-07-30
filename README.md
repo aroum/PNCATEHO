@@ -45,18 +45,18 @@ When using two halves of РИСАТЕНО connected via Bluetooth, you can use t
 
 # BOM
 
-| Item                                                                  | Quantity | Remarks                              |
-| --------------------------------------------------------------------- | -------: | ------------------------------------ |
-| [proMicro](https://letyshops.com/r/aliexpress-34fe03ddae99)           | 1        | or any other compatible controller   |
-| [Kailh Choc V1](https://letyshops.com/r/aliexpress-0d119d748cee)      | 10       | switches                             |
-| [Keycaps](https://letyshops.com/r/aliexpress-f78f83bd795e)            | 10       | 1U                                   |
-| [YS-SK6812MINI-E](https://letyshops.com/r/aliexpress-74836b587aa2)    | 10       | RGB leds                             |
-| [Magnets](https://letyshops.com/r/aliexpress-cb4d2aabd98c)            | 2-6      | disc 7x2 mm (for case)               |
-| [Bumpers](https://letyshops.com/r/aliexpress-bfc12f5d41d1)            | 7        | 5x2 mm                               |
-| [Sockets PH3.5](https://letyshops.com/r/aliexpress-e7ee1405e129)      | 12x2     | for controller                       |
-| [SMD button 3x4x2mm](https://letyshops.com/r/aliexpress-df18e3c44791) | 1        | for reset                            |
-| [MSK-12C02](https://letyshops.com/r/aliexpress-8d5e16427a12)          | 1        | Power switch  (wireless only)        |
-| [301230](https://letyshops.com/r/aliexpress-a4432420f326)             | 1        | Battery  (wireless only)             |
+| Item                                                                   | Quantity | Remarks                              |
+| ---------------------------------------------------------------------- | -------: | ------------------------------------ |
+| [proMicro](https://aliexpress.ru/item/32840365436.html)                | 1        | or any other compatible controller   |
+| [Kailh Choc V1](https://aliexpress.ru/item/32959996455.html)           | 10       | switches                             |
+| [Keycaps](https://aliexpress.ru/item/33026798318.html)                 | 10       | 1U                                   |
+| [YS-SK6812MINI-E](https://aliexpress.ru/item/4000475685852.html)       | 10       | RGB leds                             |
+| [Magnets](https://aliexpress.ru/item/1005002757445161.html)            | 2-6      | disc 7x2 mm (for case)               |
+| [Bumpers](https://aliexpress.ru/item/4001188580018.html)               | 7        | 5x2 mm                               |
+| [Sockets PH3.5](https://aliexpress.ru/item/32899635835.html)           | 12x2     | for controller                       |
+| [SMD button 3x4x2mm](https://aliexpress.ru/item/1005003812819985.html) | 1        | for reset                            |
+| [MSK-12C02](https://aliexpress.ru/item/1005001398386692.html)          | 1        | Power switch  (wireless only)        |
+| [301230](https://aliexpress.ru/item/32732458079.html)                  | 1        | Battery  (wireless only)             |
 
 
 # Build guide
