@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name PNCATEHO)(type KiCad)(uri ../PNCATEHO_lib/kicad-footprints/PNCATEHO_lib.pretty/)(options "")(descr ""))
-)
