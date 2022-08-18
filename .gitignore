@@ -3,30 +3,40 @@
 *.bck
 *.kicad_pcb-bak
 *.sch-bak
+*-cache.lib
+*.kicad_prl
+*.kicad_pcb-bak
 *~
 _autosave-*
 *.tmp
+*.round-tracks-config
 *-save.pro
 *-save.kicad_pcb
 *-cache.lib
 *-rescue.lib
 *-rescue.dcm
+desktop.ini
 fp-info-cache
+fp-lib-table
+sym-lib-table
 
 *.net
 *.dsn
 *.ses
+*.stl
+Devlog.md
+*-backups
+*/sources/
+*sources/
+*gerber/
+*_bak
 
-case/case.stl
-
-pcb/shape/sources/
-case/sources/
-plate/cutting/sources/
 
 pcb/PNCATEHO_lib/kicad-packages3D/
 plate/pcb/plate_lib
 
-pcb/PNCATEHO_rgb/gerber/
-pcb/PNCATEHO/gerber/
-plate/pcb/gerber/
 
+Devlog.md
+pcb/PNCATEHO/fp-lib-table
+pcb/PNCATEHO/fp-lib-table
+pcb/PNCATEHO/fp-lib-table

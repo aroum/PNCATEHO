@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name plate_lib)(type KiCad)(uri plate_lib/kicad-footprints/plate_lib.pretty/)(options "")(descr ""))
-)
