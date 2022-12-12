@@ -1,0 +1,26 @@
+{
+  "keyboard_name": "pncateho",
+  "manufacturer": "aroum",
+  "url": "",
+  "maintainer": "aroum",
+  "usb": {
+    "vid": "0x4453",
+    "pid": "0x0741",
+    "device_version": "0.2.0"
+  },
+"layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "x": 0, "y": 0 },
+                { "x": 1, "y": 0 },
+                { "x": 2, "y": 0 },
+                { "x": 3, "y": 0 },
+                { "x": 4, "y": 0 },
+                { "x": 7, "y": 0 },
+                { "x": 8, "y": 0 },
+                { "x": 9, "y": 0 },
+                { "x": 10, "y": 0 }
+            ]
+        }
+    }
+}
