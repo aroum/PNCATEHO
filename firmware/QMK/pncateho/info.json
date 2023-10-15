@@ -6,16 +6,35 @@
   "usb": {
     "vid": "0x4453",
     "pid": "0x0741",
-    "device_version": "0.2.0"
+    "device_version": "0.3.0"
   },
+    "development_board": "promicro",
+    "processor": "atmega32u4",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "unicode": true
+    },
+  "rgb_matrix": {
+    "driver": "ws2812"
+  },
+    "matrix_pins": {
+        "direct": [
+            ["F7", "F6", "F5", "F4", "B6"],
+            ["B2", "B3", "B1","E6", "B4"],
+        ]       
+    },
+  //         {F7, F6, F5, F4, B6}, { B2, B3, B1, E6, B4 } \
 "layouts": {
         "LAYOUT": {
             "layout": [
-                { "x": 0, "y": 0 },
                 { "x": 1, "y": 0 },
                 { "x": 2, "y": 0 },
                 { "x": 3, "y": 0 },
                 { "x": 4, "y": 0 },
+                { "x": 5, "y": 0 },
+                { "x": 6, "y": 0 },
                 { "x": 7, "y": 0 },
                 { "x": 8, "y": 0 },
                 { "x": 9, "y": 0 },

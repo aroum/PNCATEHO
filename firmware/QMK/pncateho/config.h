@@ -1,7 +1,6 @@
-#ifndef CONFIG_H
-#define CONFIG_H
+// #ifndef CONFIG_H
+// #define CONFIG_H
 
-#include "config_common.h"
 
 /* USB Device descriptor parameter 
 #define VENDOR_ID 0x4541
@@ -21,33 +20,34 @@
 
 #define DEBOUNCE 5
 
-/* prevent stuck modifiers
-#define PREVENT_STUCK_MODIFIERS
- */
 
-/* ws2812 RGB LED */
-#define RGB_DI_PIN B5
+
 
 #ifdef RGBLIGHT_ENABLE
-    #define RGBLED_NUM 10 // Number of LEDs
-    #define DRIVER_LED_TOTAL RGBLED_NUM
-    #define RGBLIGHT_SLEEP
-    #define RGBLIGHT_LIMIT_VAL 180
-    #define RGBLIGHT_HUE_STEP 5
-    #define RGBLIGHT_SAT_STEP 10
-    #define RGBLIGHT_VAL_STEP 60
-    #define RGBLIGHT_EFFECT_STATIC_LIGHT
+    #define RGBLED_NUM 10
+    #define RGBLIGHT_EFFECT_BREATHING
+    #define RGBLIGHT_EFFECT_RAINBOW_MOOD
+    #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+    #define RGBLIGHT_EFFECT_SNAKE
+    #define RGBLIGHT_EFFECT_KNIGHT
+    #define RGBLIGHT_EFFECT_CHRISTMAS
+    #define RGBLIGHT_EFFECT_STATIC_GRADIENT
+    #define RGBLIGHT_EFFECT_RGB_TEST
+    #define RGBLIGHT_EFFECT_ALTERNATING
     #define RGBLIGHT_EFFECT_TWINKLE
+    #define RGBLIGHT_LIMIT_VAL 120
+    #define RGBLIGHT_HUE_STEP 10
+    #define RGBLIGHT_SAT_STEP 17
+    #define RGBLIGHT_VAL_STEP 17
     #define RGBLIGHT_LAYERS
     #define RGBLIGHT_MAX_LAYERS 5
     #define RGBLIGHT_LAYERS_OVERRIDE_RGB_OFF
     #define RGBLIGHT_LAYERS
-#endif
+    #define WS2812_DI_PIN B5
 #endif
 
-#define DIRECT_PINS                                  \
-    {                                                \
-        {F7, F6, F5, F4, B6}, { B2, B3, B1, E6, B4 } \
-    }
+// #endif
+
+
 
 /* #define UNUSED_PINS*/

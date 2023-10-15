@@ -18,4 +18,6 @@ The pcb is fixed by friction or double-sided tape.
 * Resolution: 0.05mm
 * Resin material: ABS-like
 
+The flexible version of the body does not have holes for non-slip feet.
+
 STL models can be downloaded in [releases](https://github.com/aroum/PNCATEHO/releases).

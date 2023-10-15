@@ -10,7 +10,7 @@ Gerber files and stl models can be downloaded in [releases](https://github.com/a
 
 [Post on reddit with photos](https://www.reddit.com/r/ErgoMechKeyboards/comments/r8novj/%D1%80%D0%B8%D1%81%D0%B0%D1%82%D0%B5%D0%BD%D0%BE_risateno_10_key_chord_keyboard/)
 
-![front](pcb/PNCATEHO_rgb/renders/front.png)
+![front](pcb/renders/front.png)
 
 # Features
 * 10 keys, Kailh Choc V1 switches
@@ -19,6 +19,9 @@ Gerber files and stl models can be downloaded in [releases](https://github.com/a
 * Wireless(optional)
 * Per switch RGB(optional)
 * Power switch for wireless controllers(optional)
+* Two halves inscribed in 100x100 mm(optional)
+* Three mounting screws
+* One PCB for right and left versions
 
 # Inspiration
 
@@ -31,9 +34,9 @@ Gerber files and stl models can be downloaded in [releases](https://github.com/a
 # Options
 РИСАТЕНО can be used with [nRFMicro](https://github.com/joric/nrfmicro) or [nice!nano](https://nicekeyboards.com/nice-nano/) and 301230 batteries for wireless mode. It can also be used as a split keyboard for two hands with wireless communication of the halves.
 
-РИСАТЕНО RGB is designed only for wired use.
 
-From version 0.2 the PCB are double-sided, one PCB can be used for the right and left variant. On the left version, the controller is soldered components down, on the right, components up.
+
+From version 0.2+ the PCB are double-sided, one PCB can be used for the right and left variant. On the left version, the controller is soldered components down, on the right, components up.
 
 # Layouts
 РИСАТЕНО designed for one-handed chord typing, the layout [here](http://www.keyboard-layout-editor.com/#/gists/019e404b4ab5db93cd75010ad90777a4). 
