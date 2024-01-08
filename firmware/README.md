@@ -19,4 +19,4 @@ The main idea use only 2 keys chords.
 Or just download in [releases](https://github.com/aroum/PNCATEHO/releases).
 ## ZMK
 
-maybe later
+Config [here](https://github.com/aroum/zmk-PNCATEHO)
