@@ -61,6 +61,7 @@ When using two halves of РИСАТЕНО connected via Bluetooth, you can use t
 | [MSK-12C02](https://aliexpress.ru/item/1005001398386692.html)          | 1        | Power switch  (wireless only)        |
 | [301230](https://aliexpress.ru/item/32732458079.html)                  | 1        | Battery  (wireless only)             |
 
+[IBOM](https://htmlpreview.github.io/?https://github.com/aroum/PNCATEHO/blob/master/pcb/PNCATEHO_v3/ibom/ibom.html)
 
 # Build guide
 1. Solder the controller sockets
