@@ -1,8 +1,0 @@
-Designator,Footprint,Quantity,Value,LCSC Part #
-"H1_2, H1, H2_2, H2, H3_2, H3",HOLE,6,Hole,
-"J1_2, J1",battery_conn,2,TestPoint_2Pole,
-"LED1_2, LED1, LED10_2, LED10, LED2_2, LED2, LED3_2, LED3, LED4_2, LED4, LED5_2, LED5, LED6_2, LED6, LED7_2, LED7, LED8_2, LED8, LED9_2, LED9",YS-SK6812MINI-E_duplex,20,YS-SK6812MINI-E,
-"PSW1_2, PSW1",switch_MSK-12C02_smd,2,SW_SPDT,
-"RSW1_2, RSW1",SW_3x4x2_2legs_duplex,2,SW_PUSH,
-"SW1_2, SW1, SW10_2, SW10, SW2_2, SW2, SW3_2, SW3, SW4_2, SW4, SW5_2, SW5, SW6_2, SW6, SW7_2, SW7, SW8_2, SW8, SW9_2, SW9",ChocV1_duplex,20,SW_PUSH,
-"U1_2, U1",ProMicro_duplex,2,ProMicro_r,
