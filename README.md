@@ -1,6 +1,4 @@
 # РИСАТЕНО
- 
-
 
 РИСАТЕНО (__RISATENO__) - created as a rethinking of [ARTSEY](https://artsey.io/) for the Russian language. 10 keys, two for each finger.
 
@@ -19,7 +17,7 @@ Gerber files and stl models can be downloaded in [releases](https://github.com/a
 * Wireless(optional)
 * Per switch RGB(optional)
 * Power switch for wireless controllers(optional)
-* Two halves inscribed in 100x100 mm(optional)
+* Two halves placed on one 100x100mm pcb (optional)
 * Three mounting screws
 * One PCB for right and left versions
 
@@ -34,8 +32,6 @@ Gerber files and stl models can be downloaded in [releases](https://github.com/a
 # Options
 РИСАТЕНО can be used with [nRFMicro](https://github.com/joric/nrfmicro) or [nice!nano](https://nicekeyboards.com/nice-nano/) and 301230 batteries for wireless mode. It can also be used as a split keyboard for two hands with wireless communication of the halves.
 
-
-
 From version 0.2+ the PCB are double-sided, one PCB can be used for the right and left variant. On the left version, the controller is soldered components down, on the right, components up.
 
 # Layouts
@@ -44,7 +40,6 @@ From version 0.2+ the PCB are double-sided, one PCB can be used for the right an
 The original idea was to create a compact keyboard for chord typing, but it can also be used as a macro pad.
 
 When using two halves of РИСАТЕНО connected via Bluetooth, you can use the [Kladenets layout](https://ibnteo.github.io/kladenets/).
-
 
 # BOM
 
