@@ -55,6 +55,8 @@ When using two halves of РИСАТЕНО connected via Bluetooth, you can use t
 | [SMD button 3x4x2mm](https://aliexpress.ru/item/1005003812819985.html) | 1        | for reset                            |
 | [MSK-12C02](https://aliexpress.ru/item/1005001398386692.html)          | 1        | Power switch  (wireless only)        |
 | [301230](https://aliexpress.ru/item/32732458079.html)                  | 1        | Battery  (wireless only)             |
+| [m2 nuts](https://aliexpress.ru/item/1005003114659036.html)            | 3        | for case v3                          |
+| [m2x4 sqrews](https://aliexpress.ru/item/1005004494509456.html)        | 3        | for case v3                          |
 
 [IBOM](https://htmlpreview.github.io/?https://github.com/aroum/PNCATEHO/blob/master/pcb/PNCATEHO_v3/ibom/ibom.html)
 
