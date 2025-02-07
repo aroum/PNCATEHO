@@ -24,7 +24,7 @@ Gerber files and stl models can be downloaded in [releases](https://github.com/a
 # Inspiration
 
 * [ARTSEY](https://artsey.io/)
-* [The Paintbrush](https://github.com/artseyio/thepaintbrus)
+* [The Paintbrush](https://github.com/artseyio/thepaintbrush)
 * [Helix](https://github.com/MakotoKurauchi/helix)
 * [wakizashi](https://klava.wiki/hypha/%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D1%8B/%D0%B2%D0%B0%D0%BA%D0%B8%D0%B4%D0%B7%D0%B0%D1%81%D0%B8) (saw after the release of PNCATEHO)
 
