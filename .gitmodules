@@ -1,0 +1,3 @@
+[submodule "pcb/external-libs/keyswitches.pretty"]
+	path = pcb/external-libs/keyswitches.pretty
+	url = https://github.com/daprice/keyswitches.pretty
