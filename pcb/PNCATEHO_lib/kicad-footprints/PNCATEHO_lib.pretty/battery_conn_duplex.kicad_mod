@@ -1,25 +1,120 @@
-(module battery_conn_duplex (layer F.Cu) (tedit 6113AC2E)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value battery_conn_duplex (at 0 -0.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text user D3/TX0 (at 4.155 0.282 unlocked) (layer Dwgs.User)
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-  )
-  (fp_text user + (at -6.096 0) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.15)))
-  )
-  (fp_text user - (at 6.096 0) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.15)))
-  )
-  (fp_text user + (at -6.096 0) (layer B.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.15)))
-  )
-  (fp_text user - (at 6.096 0) (layer B.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.15)))
-  )
-  (pad 2 thru_hole roundrect (at 7.6114 0.254) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
-  (pad 1 thru_hole circle (at -7.6086 0.254 90) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask))
+(footprint "battery_conn_duplex"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d5eeda33-7dfc-49a8-a2b4-67a6c782c344")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "battery_conn_duplex"
+		(at 0 -15.24 0)
+		(layer "F.Fab")
+		(uuid "378cd9c5-ebb2-489b-8a7d-976f9a1b64f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1272d65-7168-4bf9-8608-d1a44ac84a35")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a81d4600-6003-4119-9bc7-5d2a13173b45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "-"
+		(at 6.5 -15.24 0)
+		(layer "F.SilkS")
+		(uuid "3792a6ec-56f3-465f-b161-86cc8484eb10")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "+"
+		(at -6.5 -15.24 0)
+		(layer "F.SilkS")
+		(uuid "d3246297-b2fb-42f3-97b5-241f847f0022")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "-"
+		(at 6.5 -15.24 0)
+		(layer "B.SilkS")
+		(uuid "2209551f-c9e0-419b-8d39-4f7bde97dde0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "+"
+		(at -6.5 -15.24 0)
+		(layer "B.SilkS")
+		(uuid "603cf763-418e-4716-92e5-f4d672df44ee")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7.6 -15.24 90)
+		(size 1.524 1.524)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33358398-fb14-4c18-b8b5-9aac56560f25")
+	)
+	(pad "2" thru_hole roundrect
+		(at 7.6 -15.24)
+		(size 1.524 1.524)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "19f0a44b-2b7b-45ed-9a49-0be47983257e")
+	)
+	(embedded_fonts no)
 )

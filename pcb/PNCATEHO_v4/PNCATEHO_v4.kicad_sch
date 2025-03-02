@@ -3071,7 +3071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches-pretty:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "PNCATEHO:Kailh_socket_PG1350_reversible"
 			(at 80.01 21.082 0)
 			(effects
 				(font
@@ -3137,7 +3137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches-pretty:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "PNCATEHO:Kailh_socket_PG1350_reversible"
 			(at 97.79 21.082 0)
 			(effects
 				(font
@@ -3203,7 +3203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches-pretty:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "PNCATEHO:Kailh_socket_PG1350_reversible"
 			(at 115.57 21.082 0)
 			(effects
 				(font
@@ -3269,7 +3269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches-pretty:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "PNCATEHO:Kailh_socket_PG1350_reversible"
 			(at 133.35 21.082 0)
 			(effects
 				(font
@@ -3335,7 +3335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches-pretty:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "PNCATEHO:Kailh_socket_PG1350_reversible"
 			(at 80.01 36.322 0)
 			(effects
 				(font
@@ -3401,7 +3401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches-pretty:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "PNCATEHO:Kailh_socket_PG1350_reversible"
 			(at 97.79 36.322 0)
 			(effects
 				(font
@@ -3467,7 +3467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches-pretty:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "PNCATEHO:Kailh_socket_PG1350_reversible"
 			(at 115.57 36.322 0)
 			(effects
 				(font
@@ -3533,7 +3533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches-pretty:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "PNCATEHO:Kailh_socket_PG1350_reversible"
 			(at 133.35 36.322 0)
 			(effects
 				(font
@@ -3599,7 +3599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches-pretty:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "PNCATEHO:Kailh_socket_PG1350_reversible"
 			(at 133.35 51.562 0)
 			(effects
 				(font
@@ -3665,7 +3665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "keyswitches-pretty:Kailh_socket_PG1350_reversible"
+		(property "Footprint" "PNCATEHO:Kailh_socket_PG1350_reversible"
 			(at 151.13 51.562 0)
 			(effects
 				(font
@@ -5866,7 +5866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "enki_lib:HOLE"
+		(property "Footprint" "PNCATEHO:Hole"
 			(at 88.138 26.924 0)
 			(effects
 				(font
@@ -5930,7 +5930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "enki_lib:battery_conn"
+		(property "Footprint" "PNCATEHO:battery_conn_duplex"
 			(at 15.621 28.194 0)
 			(effects
 				(font
@@ -5998,7 +5998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "enki_lib:HOLE"
+		(property "Footprint" "PNCATEHO:Hole"
 			(at 148.59 42.672 0)
 			(effects
 				(font
@@ -6060,7 +6060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "enki_lib:HOLE"
+		(property "Footprint" "PNCATEHO:Hole"
 			(at 126.492 26.924 0)
 			(effects
 				(font
@@ -6121,7 +6121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "enki_lib:switch_MSK-12C02_smd"
+		(property "Footprint" "PNCATEHO:MSK-12C02_DUAL"
 			(at 20.701 23.114 0)
 			(effects
 				(font
