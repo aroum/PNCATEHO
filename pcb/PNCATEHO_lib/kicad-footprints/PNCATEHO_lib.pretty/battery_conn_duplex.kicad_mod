@@ -84,7 +84,7 @@
 				(size 1.5 1.5)
 				(thickness 0.15)
 			)
-			(justify right)
+			(justify left mirror)
 		)
 	)
 	(fp_text user "+"
@@ -96,7 +96,7 @@
 				(size 1.5 1.5)
 				(thickness 0.15)
 			)
-			(justify left)
+			(justify right mirror)
 		)
 	)
 	(pad "1" thru_hole circle

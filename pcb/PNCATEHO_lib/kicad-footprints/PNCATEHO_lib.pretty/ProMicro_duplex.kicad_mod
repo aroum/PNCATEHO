@@ -545,6 +545,20 @@
 			(justify left)
 		)
 	)
+	(pad "" thru_hole circle
+		(at -7.6 -12.7 90)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6dddfbf8-9d79-4cd0-9a02-ab810208068c")
+	)
+	(pad "" smd rect
+		(at -6.4 -12.7)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9af19002-4111-4807-9886-2a1418722b45")
+	)
 	(pad "1" thru_hole circle
 		(at 7.6 -12.7)
 		(size 1.524 1.524)
@@ -561,20 +575,22 @@
 		(remove_unused_layers no)
 		(uuid "d4e42432-81d9-47d9-9c59-0dc9c91a8a18")
 	)
-	(pad "3" thru_hole circle
+	(pad "3" thru_hole roundrect
 		(at 7.6 -7.62)
 		(size 1.524 1.524)
 		(drill 0.8128)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
 		(uuid "643709f8-3430-4130-b00a-9e97d0cead34")
 	)
-	(pad "4" thru_hole circle
+	(pad "4" thru_hole roundrect
 		(at 7.6 -5.08)
 		(size 1.524 1.524)
 		(drill 0.8128)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
 		(uuid "4b923c8e-8508-4c9a-806d-51a6cdd5b496")
 	)
 	(pad "5" thru_hole circle
@@ -721,21 +737,26 @@
 		(remove_unused_layers no)
 		(uuid "c69b6346-3b98-4b87-be09-fd38cd5655a9")
 	)
-	(pad "23" thru_hole circle
+	(pad "23" thru_hole roundrect
 		(at -7.6 -10.16)
 		(size 1.524 1.524)
 		(drill 0.8128)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
 		(uuid "6010a551-7d57-4768-bf45-af468f32a9d6")
 	)
-	(pad "24" thru_hole circle
-		(at -7.6 -12.7 90)
-		(size 1.524 1.524)
-		(drill 0.8128)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "6dddfbf8-9d79-4cd0-9a02-ab810208068c")
+	(pad "24" smd custom
+		(at -5.4 -12.7)
+		(size 1.523 1.524)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(die_length 1)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "6cbdb505-10ea-46e0-89ea-9d9fee30a28f")
 	)
 	(embedded_fonts no)
 	(model "../PNCATEHO_lib/kicad-packages3D/kbd.3dshapes/ProMicro.step"

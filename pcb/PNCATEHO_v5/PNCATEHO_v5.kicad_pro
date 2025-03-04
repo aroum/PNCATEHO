@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": true,
         "pads": {
-          "drill": 4.8,
-          "height": 5.0,
-          "width": 5.0
+          "drill": 0.8128,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -85,7 +85,7 @@
         "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "ignore",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -480,7 +480,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PNCATEHO_v4.kicad_pro",
+    "filename": "PNCATEHO_v5.kicad_pro",
     "version": 3
   },
   "net_settings": {
