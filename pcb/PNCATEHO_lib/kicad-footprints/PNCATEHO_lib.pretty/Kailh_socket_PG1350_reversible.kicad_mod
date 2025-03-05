@@ -20,6 +20,7 @@
 	(property "Value" "Kailh_socket_PG1350_reversible"
 		(at 0 8.89 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "b1158e21-9245-4584-9137-8fd8bfd8241b")
 		(effects
 			(font
@@ -478,8 +479,8 @@
 		(uuid "f3fc285c-c071-437c-a3b3-f47bea0788fa")
 	)
 	(fp_rect
-		(start -9 -8.5)
-		(end 9 8.5)
+		(start -9.5 -9.5)
+		(end 9.5 9.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -1031,41 +1032,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "d64c639e-5339-4c8c-99a0-e4c01792f3b1")
-	)
-	(fp_text user "${VALUE}"
-		(at 0 8.89 0)
-		(layer "B.Fab")
-		(uuid "be427346-e062-4651-a05a-c375a71b8346")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at -3 5 0)
-		(layer "B.Fab")
-		(uuid "be6ee580-3cee-45df-862f-2ead1385b023")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at 3 5 180)
-		(layer "F.Fab")
-		(uuid "a53612b2-81ac-4893-b6d2-65fe92b7f168")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "" np_thru_hole circle
 		(at -5.5 0)

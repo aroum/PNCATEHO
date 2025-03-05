@@ -217,18 +217,6 @@
 		(uuid "7122586d-30d2-4cce-9b6e-591659756833")
 	)
 	(pad "" smd rect
-		(at 2.25 3.14)
-		(size 0.7 1.28)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b5ab8b95-a017-4db9-b8f5-a34a58efc949")
-	)
-	(pad "" smd rect
-		(at 2.25 3.14)
-		(size 0.7 1.28)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "f0a3706f-a3ec-4e8e-9337-1c18ea86f474")
-	)
-	(pad "" smd rect
 		(at 3.65 0.16)
 		(size 1 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -281,6 +269,18 @@
 		(chamfer_ratio 0.4)
 		(chamfer top_right)
 		(uuid "310955b9-e14e-4362-bdcc-89abd83d3be6")
+	)
+	(pad "3" smd rect
+		(at 2.25 3.14)
+		(size 0.7 1.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b5ab8b95-a017-4db9-b8f5-a34a58efc949")
+	)
+	(pad "3" smd rect
+		(at 2.25 3.14)
+		(size 0.7 1.28)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "f0a3706f-a3ec-4e8e-9337-1c18ea86f474")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/Rafael/Documents/Keyboards/SW_MSK12C02.step"
