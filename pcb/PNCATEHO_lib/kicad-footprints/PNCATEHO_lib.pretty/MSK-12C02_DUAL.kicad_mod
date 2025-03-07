@@ -7,7 +7,7 @@
 		(at 0 -2.73 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "ca835c65-550f-4bc9-8c46-cac3b1dcd073")
+		(uuid "6880b550-7399-4f0d-9cfa-9c24c82ad090")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "MSK-12C02_DUAL"
 		(at 0 6.37 0)
 		(layer "F.Fab")
-		(uuid "3c31c7bd-b5b5-43cd-8cf9-263f8e6943a4")
+		(uuid "278cf51e-f3e8-4be8-b3a7-521641c4ad94")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a0e54bd3-4412-446a-822b-9d6715b83b5d")
+		(uuid "f0367177-eb58-461e-a9d0-06591d22b66a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1cbbe61b-cc6f-4fde-beb5-a8d1540dd67f")
+		(uuid "63d4932f-2ddc-40f2-a008-a2ab3b0d15e5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -244,6 +244,17 @@
 		(at -2.25 3.14)
 		(size 0.7 1.28)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "dcf82cfa-34f2-4a9c-b84b-e43f078bc015")
 	)
 	(pad "1" smd rect
@@ -259,6 +270,17 @@
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.4)
 		(chamfer top_left)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "9734e96a-4d8a-4eb9-ac8f-f9291150dd79")
 	)
 	(pad "2" smd roundrect
@@ -268,12 +290,34 @@
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.4)
 		(chamfer top_right)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "310955b9-e14e-4362-bdcc-89abd83d3be6")
 	)
 	(pad "3" smd rect
 		(at 2.25 3.14)
 		(size 0.7 1.28)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "b5ab8b95-a017-4db9-b8f5-a34a58efc949")
 	)
 	(pad "3" smd rect
