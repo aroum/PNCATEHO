@@ -848,17 +848,10 @@
 	)
 	(pad "" np_thru_hole circle
 		(at -5.08 0)
-		(size 1.9 1.9)
-		(drill 1.9)
-		(layers "*.Cu" "*.Mask")
-		(uuid "e170f92f-042b-4bd5-9215-ddb681f61ed9")
-	)
-	(pad "" np_thru_hole circle
-		(at -4.5 0)
 		(size 1.7 1.7)
-		(drill 1.7)
-		(layers "*.Cu" "*.Mask")
-		(uuid "3bfb3587-ca17-4db1-89be-fb5829e6371f")
+		(drill 1.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e170f92f-042b-4bd5-9215-ddb681f61ed9")
 	)
 	(pad "" np_thru_hole circle
 		(at -3.81 -2.54 180)
@@ -924,17 +917,10 @@
 		(uuid "723e7663-6feb-4f57-a1c2-3522b39e23ba")
 	)
 	(pad "" np_thru_hole circle
-		(at 4.5 0)
-		(size 1.7 1.7)
-		(drill 1.7)
-		(layers "*.Cu" "*.Mask")
-		(uuid "fe93df1f-17de-4baf-912e-a63738250b5c")
-	)
-	(pad "" np_thru_hole circle
 		(at 5.08 0)
-		(size 1.9 1.9)
+		(size 1.7 1.7)
 		(drill 1.9)
-		(layers "*.Cu" "*.Mask")
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "78f7f64e-d697-4c37-840a-2e991e53b91e")
 	)
 	(pad "1" smd rect
@@ -946,7 +932,7 @@
 	(pad "1" smd rect
 		(at -5.7 -5.12 180)
 		(size 2.3 2)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d8404b21-cd40-4b22-94d7-13f99899070c")
 	)
 	(pad "2" smd rect
@@ -976,7 +962,7 @@
 	(pad "4" smd rect
 		(at 5.7 5.12)
 		(size 2.3 2)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d34e7b4e-cb87-4c42-90bd-0ff3d92b4dd0")
 	)
 	(pad "4" smd rect
