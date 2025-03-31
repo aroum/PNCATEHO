@@ -4185,7 +4185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PNCATEHO:ProMicro_duplex"
+		(property "Footprint" "PNCATEHO:ProMicro_duplex_mirrored"
 			(at 41.148 26.1366 0)
 			(effects
 				(font
