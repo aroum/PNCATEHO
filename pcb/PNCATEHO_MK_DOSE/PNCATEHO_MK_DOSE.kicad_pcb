@@ -21056,7 +21056,7 @@
 		(uuid "6caf3fd3-7526-4a71-9903-4d069823e265")
 	)
 	(gr_text "PNCATEHO MK-DOSE"
-		(at 112.5 43.6 90)
+		(at 113.5 43.6 90)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-000060d59ded")
 		(effects
@@ -21267,7 +21267,7 @@
 		)
 	)
 	(gr_text "PNCATEHO MK-DOSE\n"
-		(at 113.5 43.6 90)
+		(at 112.5 43.6 90)
 		(layer "B.SilkS")
 		(uuid "c8e14f4a-d39c-4a75-b454-777805fc40cd")
 		(effects
