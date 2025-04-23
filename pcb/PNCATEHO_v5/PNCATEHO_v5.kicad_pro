@@ -109,6 +109,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -519,7 +520,7 @@
       "plot": "/tmp/",
       "pos_files": "",
       "specctra_dsn": "../../../../../../../Documents/PNCATEHO_RGB.dsn",
-      "step": "PNCATEHO_RGB.step",
+      "step": "PNCATEHO_v5.step",
       "svg": "",
       "vrml": ""
     },
