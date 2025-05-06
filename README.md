@@ -14,9 +14,9 @@ Gerber files and stl models can be downloaded in [releases](https://github.com/a
 * 10 keys, Kailh Choc V1 switches
 * Choc spacing
 * Direct pins 
-* Wireless(optional)
-* Per switch RGB(optional)
-* Power switch for wireless controllers(optional)
+* Wireless (optional)
+* Per switch RGB (optional)
+* Power switch for wireless controllers (optional)
 * Two halves placed on one 100x100mm pcb (optional)
 * Three mounting screws
 * One PCB for right and left versions
@@ -28,11 +28,13 @@ Gerber files and stl models can be downloaded in [releases](https://github.com/a
 * [Helix](https://github.com/MakotoKurauchi/helix)
 * [wakizashi](https://klava.wiki/hypha/%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D1%8B/%D0%B2%D0%B0%D0%BA%D0%B8%D0%B4%D0%B7%D0%B0%D1%81%D0%B8) (saw after the release of PNCATEHO)
 
+# Firmware
+Information about supported firmware can be found [here](firmware/README.md).
 
 # Options
 РИСАТЕНО can be used with [nRFMicro](https://github.com/joric/nrfmicro) or [nice!nano](https://nicekeyboards.com/nice-nano/) and 301230 batteries for wireless mode. It can also be used as a split keyboard for two hands with wireless communication of the halves.
 
-From version 0.2+ the PCB are double-sided, one PCB can be used for the right and left variant. On the left version, the controller is soldered components down, on the right, components up.
+From version 0.2+ the PCB are double-sided, one PCB can be used for the right and left variant.
 
 # Layouts
 РИСАТЕНО designed for one-handed chord typing, the layout [here](http://www.keyboard-layout-editor.com/#/gists/019e404b4ab5db93cd75010ad90777a4). 
@@ -55,23 +57,24 @@ When using two halves of РИСАТЕНО connected via Bluetooth, you can use t
 | [SMD button 3x4x2mm](https://aliexpress.ru/item/1005003812819985.html) | 1        | for reset                            |
 | [MSK-12C02](https://aliexpress.ru/item/1005001398386692.html)          | 1        | Power switch  (wireless only)        |
 | [301230](https://aliexpress.ru/item/32732458079.html)                  | 1        | Battery  (wireless only)             |
-| [m2 nuts](https://aliexpress.ru/item/1005003114659036.html)            | 3        | for case v3                          |
-| [m2x4 sqrews](https://aliexpress.ru/item/1005004494509456.html)        | 3        | for case v3                          |
+| [m2 nuts](https://aliexpress.ru/item/1005003114659036.html)            | 3        | for case v3+                          |
+| [m2x4 sqrews](https://aliexpress.ru/item/1005004494509456.html)        | 3        | for case v3+                          |
 
-[IBOM](https://htmlpreview.github.io/?https://github.com/aroum/PNCATEHO/blob/master/pcb/PNCATEHO_v3/ibom/ibom.html)
+[IBOM](https://htmlpreview.github.io/?https://github.com/aroum/PNCATEHO/blob/master/pcb/PNCATEHO_v4/ibom/ibom.html)
 
 # Build guide
-1. Solder the controller sockets
-2. Solder the power switch (wireless only)
-3. Solder the reset button
-4. Solder the battery (only for wireless version)
-5. Solder the pins into the controller (On the left version, the controller is soldered components down, on the right, components up.)
-6. Solder 10 Kailh Choc V1 switches (optionally install plate)
-7. Solder 10 LEDs (RGB version only)
-8. Put the keycaps on the switches
-9. Stick Bumpers or place the keyboard in the case
-10. Insert controller into sockets
-11. Flash the bootloader (see the official manual for the controller)
-12. Flash the firmware (see the official manual for the controller)
+1. Solder the controller sockets.
+2. Solder the power switch (wireless version only).
+3. Solder the reset button.
+4. Solder the battery (wireless version only).
+5. Solder the jumpers on the underside of the PCB.
+6. Solder the pins into the controller (the controller is soldered components down).
+7. Solder 10 Kailh Choc V1 switches (optionally install the plate).
+8. Solder 10 LEDs (RGB version only).
+9. Put the keycaps on the switches.
+10. Stick bumpers on the board or place the keyboard in the case.
+11. Insert the controller into the sockets, making sure the components face down towards the PCB.
+12. Flash the bootloader (see the official manual for the controller).
+13. Flash the firmware (see the official manual for the controller).
 
 [Soldering Tutorial for Beginners](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) ([RU version](https://sho0.neocities.org/downloads/komiks_payat_prosto.pdf))
