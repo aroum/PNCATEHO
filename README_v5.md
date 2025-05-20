@@ -8,7 +8,7 @@ The name is made up of letters on the main layer. The letters on the base layer 
 
 ## assembled
 
-![assembled](pnc/PNCATEHO_v5/render/assembled_wo_keycaps.png)
+![assembled](pnc/PNCATEHO_v5/render/assembled-wo-keycaps.png)
 
 ## top side pcb
 
