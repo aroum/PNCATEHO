@@ -76,19 +76,20 @@ When using two halves of РИСАТЕНО connected via Bluetooth, you can use t
 
 1. Solder the 1350 hotswap sockets (solder from the bottom side).
 2. Solder the controller sockets (solder from the bottom side).
-3. Solder the power switch (wireless version only) (solder from the bottom side).
-4. Solder the reset button (solder from the top side).
-5. Solder the battery (wireless version only) (solder from the top side).
-6. Solder the pins into the controller (place the controller face down).
-7. Solder 10 LEDs (RGB version only) (solder from the bottom side; LEDs should face upward from the bottom).
-8. Print the bottom case, top case, power switch pusher, reset button pusher, and top case cover.
-9. Place the power switch pusher, position the PCB between the bottom and top cases, and screw them together.
-10. Insert the reset button pusher into the top cover through the reset hole.
-11. Insert the controller into the sockets.
-12. Place the cover over the controller.
-13. Insert the switches into the hotswap sockets.
-14. Attach the keycaps to the switches.
-15. Flash the bootloader (see the official manual for the controller).
-16. Flash the firmware (see the official manual for the controller).
+3. Solder the jumpers (solder from the bottom side, same side controller sockets soldered).
+4. Solder the power switch (wireless version only) (solder from the bottom side).
+5. Solder the reset button (solder from the top side).
+6. Solder the battery (wireless version only) (solder from the top side).
+7. Solder the pins into the controller (place the controller face down).
+8. Solder 10 LEDs (RGB version only) (solder from the bottom side; LEDs should face upward from the bottom).
+9. Print the bottom case, top case, power switch pusher, reset button pusher, and top case cover.
+10. Place the power switch pusher, position the PCB between the bottom and top cases, and screw them together.
+11. Insert the reset button pusher into the top cover through the reset hole.
+12. Insert the controller into the sockets.
+13. Place the cover over the controller.
+14. Insert the switches into the hotswap sockets.
+15. Attach the keycaps to the switches.
+16. Flash the bootloader (see the official manual for the controller).
+17. Flash the firmware (see the official manual for the controller).
 
 [Soldering Tutorial for Beginners](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) ([RU version](https://sho0.neocities.org/downloads/komiks_payat_prosto.pdf))
