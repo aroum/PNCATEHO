@@ -4,7 +4,17 @@
 
 The name is made up of letters on the main layer. The letters on the base layer are selected according to the [frequency](https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C).
 
+# Renders
+
+## assembled
+
+![assembled](pnc/PNCATEHO_v5/render/assembled_wo_keycaps.png)
+
+## top side pcb
+
 ![front](pcb/PNCATEHO_v5/renders/front.png)
+
+## bottom side pcb
 
 ![back](pcb/PNCATEHO_v5/renders/back.png)
 
