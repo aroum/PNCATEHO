@@ -55,23 +55,19 @@ When using two halves of РИСАТЕНО connected via Bluetooth, you can use t
 
 | Item                                                                       | Quantity | Remarks                              |
 | -------------------------------------------------------------------------- | -------: | ------------------------------------ |
-| [NRFproMicro](https://aliexpress.com/item/1005007088422530.html) (wireless) \|
-  [RP2040ProMicro](https://aliexpress.com/item/1005006787060405.html) (wired) \|
-  [proMicro](https://aliexpress.com/item/32840365436.html) (wired)           | 1        | Don't recomment proMicro nowadays    |
-| [Kailh HotSwap sockets](https://aliexpress.com/item/1005003873653184.html) | 10       | 1350 for low profile                 |
-| [Kailh Choc V2](https://aliexpress.com/item/1005008651091078.html) \|
-  [Kailh Choc V1](https://aliexpress.com/item/32959996455.html)              | 10       | switches                             |
-| Any ChocV1 or ChocV2 compatible keycaps                                    | 10       | 1U, depends on switch used           |
-| [YS-SK6812MINI-E](https://aliexpress.comj/item/4000475685852.html)         | 10       | RGB leds                             |
-| Strong Magnets                                                             | 5        | disc 7x3 mm (for case)               |
-| [Bumpers](https://aliexpress.com/item/4001188580018.html)                  | 5        | 8x2 mm                               |
-| [2.54mm Pitch Round Hole Pin Header](https://aliexpress.com/item/1005006673257121.html)
-  or any other socket 4.5-5 mm height                                        | 12x2     | Female (for controller)              |
-| [RGB Pins](https://aliexpress.com/item/1005006359264558.html)              | 12x2     | (for controller)                     |
-| [SMD button 3x4x2mm](https://aliexpress.com/item/1005008598353804.html)    | 1        | for reset                            |
-| [MSK-12C02](https://aliexpress.com/item/1005006710234187.html)             | 1        | Power switch  (wireless only)        |
-| [301230](https://aliexpress.com/item/32732458079.html)                     | 1        | Battery  (wireless only)             |
-| [m2x6 screws](https://aliexpress.com/item/1005002136927329.html)           | 3        | for case                             |
+| [NRFproMicro](https://aliexpress.com/item/1005007088422530.html) (wireless) \| [RP2040ProMicro](https://aliexpress.com/item/1005006787060405.html) (wired) \| [proMicro](https://aliexpress.com/item/32840365436.html) (wired)           | 1        | Don't recomment proMicro nowadays    |
+| [Kailh HotSwap sockets](https://aliexpress.com/item/1005003873653184.html)                                                   | 10       | 1350 for low profile                 |
+| [Kailh Choc V2](https://aliexpress.com/item/1005008651091078.html) \| [Kailh Choc V1](https://aliexpress.com/item/32959996455.html)              | 10       | switches                             |
+| Any ChocV1 or ChocV2 compatible keycaps                                                                                      | 10       | 1U, depends on switch used           |
+| [YS-SK6812MINI-E](https://aliexpress.comj/item/4000475685852.html)                                                           | 10       | RGB leds                             |
+| Strong Magnets                                                                                                               | 5        | disc 7x3 mm (for case)               |
+| [Bumpers](https://aliexpress.com/item/4001188580018.html)                                                                    | 5        | 8x2 mm                               |
+| [2.54mm Pitch Round Hole Pin Header](https://aliexpress.com/item/1005006673257121.html) or any other socket 4.5-5 mm height  | 12x2     | Female (for controller)              |
+| [RGB Pins](https://aliexpress.com/item/1005006359264558.html)                                                                | 12x2     | (for controller)                     |
+| [SMD button 3x4x2mm](https://aliexpress.com/item/1005008598353804.html)                                                      | 1        | for reset                            |
+| [MSK-12C02](https://aliexpress.com/item/1005006710234187.html)                                                               | 1        | Power switch  (wireless only)        |
+| [301230](https://aliexpress.com/item/32732458079.html)                                                                       | 1        | Battery  (wireless only)             |
+| [m2x6 screws](https://aliexpress.com/item/1005002136927329.html)                                                             | 3        | for case                             |
 
 # Build guide
 
