@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "PNCATEHO")(type "KiCad")(uri "${KIPRJMOD}/../PNCATEHO_lib.glass/kicad-symbols/PNCATEHO.kicad_sym")(options "")(descr ""))
-)

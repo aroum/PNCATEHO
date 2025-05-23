@@ -18,6 +18,7 @@ _autosave-*
 desktop.ini
 fp-info-cache
 
+*.lck
 *.net
 *.dsn
 *.ses
