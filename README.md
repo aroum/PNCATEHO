@@ -22,7 +22,7 @@ Current era of PNCATEHO development. Hotswap sockets, new fully closed case, som
 
 ![mkdosefront](glass/pcb/PNCATEHO_MK_DOSE/renders/front.png)
 
-## [LIGHT](glass/README.md)
+## [LIGHT](light/README.md)
 
 PNCATEHO hasn't reached the light era yet.
 
