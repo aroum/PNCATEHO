@@ -60,7 +60,7 @@ When using two halves of РИСАТЕНО connected via Bluetooth, you can use t
 | [Kailh Choc V2](https://aliexpress.com/item/1005008651091078.html) \| [Kailh Choc V1](https://aliexpress.com/item/32959996455.html)              | 10       | switches                             |
 | Any ChocV1 or ChocV2 compatible keycaps                                                                                      | 10       | 1U, depends on switch used           |
 | [YS-SK6812MINI-E](https://aliexpress.comj/item/4000475685852.html)                                                           | 10       | RGB leds                             |
-| Strong Magnets                                                                                                               | 5        | disc 7x3 mm (for case)               |
+| Strong Magnets                                                                                                               | 5        | disc 7mm diameter and up to 3mm height (for case)               |
 | [Bumpers](https://aliexpress.com/item/4001188580018.html)                                                                    | 5        | 8x2 mm                               |
 | [2.54mm Pitch Round Hole Pin Header](https://aliexpress.com/item/1005006673257121.html) or any other pin header 4.5-5 mm height  | 12x2     | Female (for controller)              |
 | [RGB Pins](https://aliexpress.com/item/1005006359264558.html)                                                                | 12x2     | (for controller)                     |
