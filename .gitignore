@@ -17,9 +17,8 @@ _autosave-*
 *-rescue.dcm
 desktop.ini
 fp-info-cache
-fp-lib-table
-sym-lib-table
 
+*.lck
 *.net
 *.dsn
 *.ses
@@ -37,9 +36,6 @@ plate/pcb/plate_lib
 
 
 Devlog.md
-pcb/PNCATEHO/fp-lib-table
-pcb/PNCATEHO/fp-lib-table
-pcb/PNCATEHO/fp-lib-table
 pcb/PNCATEHO_v3/production
 
 *.xlsx
