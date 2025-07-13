@@ -90,3 +90,45 @@ When using two halves of РИСАТЕНО connected via Bluetooth, you can use t
 17. Flash the firmware (see the official manual for the controller).
 
 [Soldering Tutorial for Beginners](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) ([RU version](https://sho0.neocities.org/downloads/komiks_payat_prosto.pdf))
+
+# Firmware
+
+You can use any firmware repository for your PNCATEHO - [aorum's](https://github.com/aroum/zmk-PNCATEHO) (for RGB support you need to build macropad branch), or [turtle's](https://github.com/turtle-bazon/zmk-PNCATEHO) (1hand_PNCATEHO or 1hand_PNCATEHO-1pin branches). turtle's 1hand_PNCATEHO and 1hand_PNCATEHO-1pin use different RGB led pin. For old legacy boards (before 0.5.2) use 1hand_PNCATEHO branch, starting from 0.5.2 board versions use 1hand_PNCATEHO-1pin. aroum's repo currently only supports legacy RGB pin. To change this modify boards/shields/PNCATEHO/PNCATEHO.overlay file. Find this:
+
+```
+// rgb,SPI
+&pinctrl {
+    spi3_default: spi3_default {
+        group1 {
+            psels = <NRF_PSEL(SPIM_MOSI, 1, 6)>;
+        };
+    };
+
+    spi3_sleep: spi3_sleep {
+        group1 {
+            psels = <NRF_PSEL(SPIM_MOSI, 1, 6)>;
+            low-power-enable;
+		};
+	};
+};
+```
+
+and replace with:
+
+```
+// rgb,SPI
+&pinctrl {
+    spi3_default: spi3_default {
+        group1 {
+            psels = <NRF_PSEL(SPIM_MOSI, 0, 6)>;
+        };
+    };
+
+    spi3_sleep: spi3_sleep {
+        group1 {
+            psels = <NRF_PSEL(SPIM_MOSI, 0, 6)>;
+            low-power-enable;
+		};
+	};
+};
+```
