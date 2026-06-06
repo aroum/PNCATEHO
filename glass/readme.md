@@ -1,7 +1,9 @@
 # glass
+
 The modern era of PNCATEHO development. It differs from the Stone era in that it supports hot-swappable keys and ChocV1/V2, MK Dose, and MX switches. It also uses closed cases and a new design approach by turtle_bazon.
 
 ## v5
+
 An updated version of the PCB by turtle_bazon. It retains the core features of the Stone era, while adding support for Choc V2, as well as hot-swappable switches, an enclosed case, and a PCB with a more refined design.
 
 ![preview](../doc/img/preview/v5_preview.jpg)
@@ -12,10 +14,11 @@ An updated version of the PCB by turtle_bazon. It retains the core features of t
 </p>
 
 ### Features
+
 * 10 keys, Kailh Choc **V1/V2** switches
 * **Hot-Swap Socket**
 * MX spacing
-* Direct pins 
+* Direct pins
 * Three mounting screws
 * One PCB for right and left versions
 * Wireless (optional)
@@ -24,6 +27,7 @@ An updated version of the PCB by turtle_bazon. It retains the core features of t
 * Two halves placed on one 100x100mm pcb (optional)
 
 ### PCB
+
 The current PCB version is 0.5.2. For manufacturing, it is recommended to use 100×100 mm Gerber files. This way, 5 boards become 10 halves (with an extra cute keychain in between).
 
 <p align="center">
@@ -32,6 +36,7 @@ The current PCB version is 0.5.2. For manufacturing, it is recommended to use 10
 </p>
 
 ### Case
+
 To assemble the case, you need to print the following files:
 
 * PNCATEHO_MK_DOSE-case-bottom-left - top part of the case
@@ -39,10 +44,10 @@ To assemble the case, you need to print the following files:
 * PNCATEHO_MK_DOSE-reset-button-pusher.step - reset button actuator
 * PNCATEHO_MK_DOSE-case-top-cover-blank-left - controller cover
 
-
 There are also different versions of the controller cover with katakana or lp. Additionally, the case [directory](../glass/case/MK_DOSE) includes an editable FreeCAD file: **PNCATEHO_v5.FCStd**.
 
 ### BOM
+
 | Item                                 | Quantity | Remarks                                      |
 | ------------------------------------ | -------: | -------------------------------------------- |
 | nice!nano                            |        1 | or any other pro micro compatible controller |
@@ -58,7 +63,8 @@ There are also different versions of the controller cover with katakana or lp. A
 | M2х6 screw                           |        3 | for case                                     |
 | Keycaps                              |       10 | 1U                                           |
 
-## MK Dose
+## MK Dose (dozateno)
+
 A version of the PCB designed for MK Dose format switches. It also supports standard MX switches. It differs by lacking per-switch backlighting, but includes indication using three SMD LEDs. Like V5, it features an enclosed case available in several variations.
 
 ![preview](../doc/img/preview/dose_preview.jpg)
@@ -69,6 +75,7 @@ A version of the PCB designed for MK Dose format switches. It also supports stan
 </p>
 
 ### Features
+
 * 10 keys, MK Dose/MX switches
 * 3 Led indication
 * **Hot-Swap Socket**
@@ -89,6 +96,7 @@ it is recommended to use 100×100 mm Gerber files. This way, 5 boards become 10 
 </p>
 
 ### Case
+
 To assemble the case, you need to print the following files:
 
 * PNCATEHO_v5-bottom-case-left - top part of the case
@@ -101,6 +109,7 @@ There are also different versions of the controller cover with the **PNCATEHO** 
 Additionally, the case [directory](../glass/case/v5) includes an editable FreeCAD file: **PNCATEHO_MK_DOSE.FCStd*.
 
 ### BOM
+
 | Item                                 | Quantity | Remarks                                      |
 | ------------------------------------ | -------: | -------------------------------------------- |
 | nice!nano                            |        1 | or any other pro micro compatible controller |

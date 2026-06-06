@@ -5,7 +5,7 @@ For assembly, you will need a soldering iron, flux, solder paste, tweezers, and 
 ## IBOM
 
 <p align="center">
-  <a href="https://htmlpreview.github.io/?https://github.com/inpudiy/PNCATEHO/blob/master/light/welcome/doc/ibom.html" style="text-decoration: none;">IBOM |</a> 
+  <a href="https://htmlpreview.github.io/?https://github.com/inpudiy/PNCATEHO/blob/master/light/welcome/doc/ibom.html" style="text-decoration: none;">IBOM |</a>
   <a href="doc/schematic.pdf" style="text-decoration: none;"> Schematic PDF</a>
 </p>
 
@@ -29,7 +29,7 @@ There are small, barely noticeable dots in the corner of both components. Instal
 
 ## Crystal (Y1)
 
-On the underside of the crystal oscillator, there is a pin with a cut corner. When placing it with the pins facing down, this corner should align with the marked corner on the PCB, as shown in the photo. Use either a hot air rework station or a hot plate. 
+On the underside of the crystal oscillator, there is a pin with a cut corner. When placing it with the pins facing down, this corner should align with the marked corner on the PCB, as shown in the photo. Use either a hot air rework station or a hot plate.
 
 ![quartz_single](../../../doc/img/build/light/welcome/quartz_single.png)
 ![quartz_pcb](../../../doc/img/build/light/welcome/quartz_pcb.png)
@@ -74,7 +74,6 @@ Start by applying flux everywhere and go over all components with a soldering ir
 ![pcb_flash](../../../doc/img/build/light/welcome/pcb_flash.png)
 ![pcb_mcu](../../../doc/img/build/light/welcome/pcb_mcu.png)
 
-
 ## WS2812B
 
 > [!WARNING]  
@@ -92,7 +91,6 @@ The data line of the LEDs is shown in the image below. If any part of the LEDs i
 
 ![2020_path](../../../doc/img/build/light/welcome/2020_path.png)
 
-
 ## CPG1316S01D02-01
 
 Before soldering the switches, it is recommended to check everything else first. Connect the keyboard and, using tweezers, short the switch pins one by one to test them.
@@ -109,7 +107,6 @@ If each pin registers a key press correctly when shorted, install the switches a
 For quick flashing and access to 8 GPIO pins, you can install a JST connector and buttons.
 
 ![jst](../../../doc/img/build/light/welcome/jst.jpg)
-
 
 ## Congratulations
 

@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/FreeCAD-418FDE.svg?style=for-the-badge&logo=FreeCAD&logoColor=white">
 </p>
 <p align="center">
-  <a href="https://github.com/inpudiy/PNCATEHO-Firmware">Firmware | </a> 
+  <a href="https://github.com/aroum/PNCATEHO/tree/master/firmware">Firmware | </a>
   <a href="https://github.com/aroum/PNCATEHO/releases">Gerber | </a>
   <a href="../doc/socket.md">About socket</a>
 </p>
@@ -16,19 +16,21 @@
 
 ## About
 
-РИСАТЕНО (__RISATENO__) - created as a rethinking of [ARTSEY](https://artsey.io/) for the Russian language. 10 keys, two for each finger. The name is made up of letters on the main layer. The letters on the base layer are selected according to the. The original idea was to create a compact keyboard for chord typing, but it can also be used as a macro pad. When using two halves of РИСАТЕНО connected via Bluetooth, you can use the [Kladenets layout](https://ibnteo.github.io/kladenets/).
+РИСАТЕНО (__RISATENO__) - created as a rethinking of [ARTSEY](https://artsey.io/) for the Russian language. 10 keys, two for each finger. The name is made up of letters on the main layer. The letters on the base layer are selected according to the. The original idea was to create a compact keyboard for chord typing, but it can also be used as a macro pad. When using two halves of РИСАТЕНО connected via Bluetooth, you can use the [Kladenets layout](https://ibnteo.github.io/kladenets/). But over time, PNCATEHO became something more. It is a synthesizer, a sampler, a MIDI keyboard, and a vast playground for your other experiments.
 
 ## Eras
+
 Eras are a way to classify different versions of a project. The Stone Era reflects original ideas. The Glass Era reflects the community's desires and experiments with new switches. The Light Era illuminates the vision of the creators who use this project as a platform for professional growth and attempt what others were afraid to do.
 
-| Name    | Era   | Swtiches   | Hot-swap | Led              | Wireless |
-| ------- | ----- | ---------- | -------- | ---------------- | -------- |
-| V4      | Stone | Choc V1    | ❌        | Per-key          | Optional |
-| V5      | Glass | Choc V1/V2 | ✅        | Per-key          | Optional |
-| MK_Dose | Glass | MK Dose/MX | ✅        | 3 Led indication | Optional |
-| Welcome | Light | ULP        | ❌<br>    | Per-key          | ❌<br>    |
+| Name    | Alt Name  | Era   | Swtiches   | Hot-swap | LED              | Wireless | MCU           |
+| ------- | --------- | ----- | ---------- | -------- | ---------------- | -------- | ------------- |
+| V4      | -         | Stone | Choc V1    | ❌        | Per-key          | Optional | proMicro like |
+| V5      | -         | Glass | Choc V1/V2 | ✅        | Per-key          | Optional | proMicro like |
+| MK_Dose | Dozateno  | Glass | MK Dose/MX | ✅        | 3 Led indication | Optional | proMicro like |
+| Welcome | Nizkoteno | Light | ULP        | ❌<br>    | Per-key          | ❌<br>    | rp2040        |
 
 ### Stone
+
 The standard version of PNCATEHO from the Stone era. Supports per-key backlighting, the option to use a wireless controller with an external power switch and reset button, and an open case. It does not support hot-swapping switches and only supports Choc V1. [more about stone](stone/readme.md)
 
 > [!WARNING]  
@@ -47,7 +49,8 @@ The standard version of PNCATEHO from the Stone era. Supports per-key backlighti
   <img src="doc/img/preview/3d.jpg" width="45%">
 </p>
 
-### Glass 
+### Glass
+
 The modern era of PNCATEHO development. It differs from the Stone era in that it supports hot-swappable keys and ChocV1/V2, MK Dose, and MX switches. It also uses closed cases and a new design approach by turtle_bazon. [more about Glass](glass/readme.md)
 
 > [!TIP]
@@ -68,6 +71,7 @@ The modern era of PNCATEHO development. It differs from the Stone era in that it
 </p>
 
 ### Light
+
 This is an era where the controller is soldered directly onto the PCB, exploring various form factors such as, for example, a PNCATEHO the size of a card. A project can become a flashlight, a development board, or even a portable gaming console. It all depends on the imagination of the community. The main contribution to this era has been made by the authors of the inpudiy community. [more about light](light/readme.md)
 
 #### Welcome
@@ -77,26 +81,25 @@ This is an era where the controller is soldered directly onto the PCB, exploring
   <img src="doc/img/preview/welcome_bottom.jpg" width="45%">
 </p>
 
-
 ## FAQ
 
 ### What is it for?
 
-As I’ve said many times, RISATENO is a fun project. It shouldn’t be treated as an everyday keyboard — it’s more like a souvenir, a kind of fridge magnet. That said, some people even try to use RISATENO ideas in keyboards they type on daily.
+First and foremost, PNCATEHO is a fun project. It shouldn't be treated as an everyday keyboard—it’s more of a novelty, like a fridge magnet. That said, some people actually try to apply PNCATEHO's concepts to their daily-driver keyboards.
 
-In many ways, the project was created as a testing ground for experimenting with chords and exploring how much the number of keys can actually be minimized. And of course, nothing stops you from using RISATENO as a macropad.
+In many ways, the project served as a testing ground for experimenting with chording and exploring just how far you can minimize the number of keys. Of course, nothing stops you from using PNCATEHO as a macropad. There are also firmwares available to turn PNCATEHO into a sampler, synthesizer, or MIDI keyboard.
 
-I tried to make the layout simpler and more intuitive, while still keeping it almost a full replacement for a full-sized keyboard. Unlike ARTSEY, I don’t use chords involving more than two keys, and I designed the layout based on letter frequency rather than picking letters that sound nice together. I also added two thumb keys — it feels odd to give every finger two keys but none to the thumbs.
+I wanted to design a layout that was simple and intuitive, yet still capable of acting as a near-full replacement for a standard keyboard. Unlike ARTSEY, I don’t use chords that require pressing more than two keys simultaneously. I also designed the layout based on letter frequency rather than just picking pleasant-sounding combinations. On top of that, I added two thumb keys—it felt odd to allocate two keys for every other finger while leaving the thumbs with nothing.
 
-### Why RISATENO?
+### Why PNCATEHO/RISATENO/РИСАТЕНО?
 
-Pncateho is a loose transliteration of “рисатено” into the Latin alphabet. The layout was designed based on letter frequency ([Wikipedia](https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C)), and the first eight letters are four vowels and four consonants. To get a pronounceable name, you can combine them into syllables — reading one way gives **RISATENO**, the other gives **NOTESARI** (options like “ONETASIR” were discarded as awkward-sounding). The second option feels a bit too “samurai,” so I went with the first.
+PNCATEHO is a loose transliteration of the Russian word "РИСАТЕНО" (RISATENO) into the Latin alphabet. The layout was designed based on letter frequency ([Wikipedia](https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C)), where the first eight letters are four vowels ('И', 'А', 'Е', 'О') and four consonants ('Р', 'С', 'Т', 'Н'). To create a pronounceable name, they can be grouped into syllables: reading them one way gives __RISATENO__, and the other way gives __NOTESARI__ (options like "ONETASIR" were discarded as awkward-sounding). The second option felt a bit too "samurai," so I went with the first.
 
-As a nice bonus, aside from the letter “И,” the name transliterates well into Latin, and the letter “N” works well as a substitute for “И.”
+As a nice bonus, if you set aside the Cyrillic letter "И", the name transliterates perfectly into the Latin alphabet, and the letter "N" works great as a visual substitute for "И".
 
-### Why not ergonomic?
+### Why no ergonomic stagger?
 
-RISATENO isn’t meant to be an everyday keyboard — here aesthetics matter more than ergonomics, and ortholinear layouts look much nicer in my opinion.
+PNCATEHO was never meant to be an everyday keyboard—aesthetics take priority over ergonomics here, and in my opinion, ortholinear layouts look much cleaner. Besides, when you only have two keys per finger, column-staggering doesn't really make much of a difference anyway.
 
 ### How do you type on it?
 
@@ -106,17 +109,19 @@ It’s quite an unusual experience, especially if you’ve never used chords bef
 
 ### Is this steno?
 
-No, steno works completely differently ([example layout](https://github.com/openstenoproject/plover/files/247728/Russian.alphabet.and.layout.pdf)). It requires more keys and a different method. RISATENO, on the other hand, is letter-by-letter input based on frequency.
+No, steno works completely differently ([example layout](https://github.com/openstenoproject/plover/files/247728/Russian.alphabet.and.layout.pdf)). It requires more keys and a different method. PNCATEHO, on the other hand, is letter-by-letter input based on frequency.
 
 If you’re interested in steno, it’s worth starting with [Plover](https://www.openstenoproject.org/plover/).
 
 ## Inspiration
+
 * [ARTSEY](https://artsey.io/)
 * [The Paintbrush](https://github.com/artseyio/thepaintbrush)
 * [Helix](https://github.com/MakotoKurauchi/helix)
 * [wakizashi](https://klava.wiki/hypha/%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D1%8B/%D0%B2%D0%B0%D0%BA%D0%B8%D0%B4%D0%B7%D0%B0%D1%81%D0%B8) (saw after the release of PNCATEHO)
 
 ## Contribute list
+
 * [aroum](https://github.com/aroum)
 * [mayoroffk](https://github.com/mayoroffk)
 * [turtle-bazon](https://github.com/turtle-bazon)

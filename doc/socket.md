@@ -10,8 +10,8 @@ In order to connect the keyboard switches to the development board, sockets are 
 > [!WARNING]  
 > PAY CLOSE ATTENTION TO THE SOCKET INFORMATION IN THE OFFICIAL REPOSITORY OF THE KEYBOARD YOU ARE BUILDING. DIFFERENT CONFIGURATIONS MAY BE USED FOR DIFFERENT CASE TYPES, EVEN WITHIN THE SAME PROJECT BUT IN DIFFERENT VERSIONS
 
-
 ## Main data
+
 Let's start by defining the main data.
 
 You might ask: why do we need a socket? Wouldn't it be simpler to just solder the boards together? Let’s imagine a situation where the development board fails, or conversely, the controller board is fine but the keyboard switches section is damaged. In such a case, you would have to desolder around 24 pins at once, or carefully remove solder from each pin individually. Trust me, you don’t want to do that—and if you do, it will take a lot of time and the chances of damaging the board increase significantly.
@@ -25,6 +25,7 @@ The solution to this problem is the use of sockets: female sockets are installed
 ## Dupont
 
 ### Square male pin header
+
 A microcontroller development board comes with a row of **SQUARE** pins. These are sets of square posts held together by plastic, from which they can be easily removed. They can also be purchased separately in strips of 40 pins in different colors.
 
 ![square](img/socket/square_pinrow_male_example.jpg)
@@ -51,16 +52,17 @@ Install the sockets into the controller, cut off the top part, and remove the pl
 *The keyboard in the photo: [Mriya](https://github.com/themaxbang/MRIYA)*
 
 #### Second option
+
 Use 3.5 mm pin headers, and install the stock sockets into the controller without removing the plastic only trim the pins above the controller. This also allows using a 31 mm thick battery.
 
 ![square](img/socket/square_pinrow_male_35mm_tog.jpg)
 *The keyboard in the photo: [gbEnki](https://github.com/aroum/gbEnki)*
 
 #### Third option
+
 Use 3.5 mm pin headers, remove the plastic from the stock sockets, and place a battery between the controller and the shield above it.
 
 ![square](img/socket/square_pinrow_male_35mm_betwen.jpg)
-
 
 ## Machine
 
