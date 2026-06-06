@@ -27,7 +27,7 @@ Eras are a way to classify different versions of a project. The Stone Era reflec
 | V4      | -         | Stone | Choc V1    | ❌        | Per-key          | Optional | proMicro like |
 | V5      | -         | Glass | Choc V1/V2 | ✅        | Per-key          | Optional | proMicro like |
 | MK_Dose | Dozateno  | Glass | MK Dose/MX | ✅        | 3 Led indication | Optional | proMicro like |
-| Welcome | Nizkoteno | Light | ULP        | ❌<br>    | Per-key          | ❌<br>    | rp2040        |
+| Welcome | Nizkoteno | Light | PG1316S    | ❌<br>    | Per-key          | ❌<br>    | rp2040        |
 
 ### Stone
 
